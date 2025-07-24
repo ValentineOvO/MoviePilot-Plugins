@@ -32,11 +32,11 @@ class CloudflareSpeedTest(_PluginBase):
     # 插件图标
     plugin_icon = "cloudflare.jpg"
     # 插件版本
-    plugin_version = "1.4"
+    plugin_version = "1.5"
     # 插件作者
-    plugin_author = "thsrite"
+    plugin_author = "valentine"
     # 作者主页
-    author_url = "https://github.com/thsrite"
+    author_url = "https://github.com/ValentineOvO"
     # 插件配置项ID前缀
     plugin_config_prefix = "cloudflarespeedtest_"
     # 加载顺序
@@ -62,7 +62,7 @@ class CloudflareSpeedTest(_PluginBase):
     _cf_ipv6 = None
     _result_file = None
     _release_prefix = 'https://github.com/XIU2/CloudflareSpeedTest/releases/download'
-    _binary_name = 'CloudflareST'
+    _binary_name = 'cfst'
 
     def init_plugin(self, config: dict = None):
         # 停止现有任务
